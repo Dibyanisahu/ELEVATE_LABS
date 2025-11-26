@@ -1,0 +1,18 @@
+Task 4: Binary Classification and Model Evaluation 🎯
+
+Project Goal:
+To implement and thoroughly evaluate foundational classification models (Logistic Regression and K-Nearest Neighbors) for a binary prediction task (e.g., predicting customer churn or medical diagnosis).
+
+Key Outcomes & Skills:
+a. Classification Implementation: Trained a Logistic Regression model, interpreting its probability output for binary outcomes. Also implemented K-Nearest Neighbors (KNN), demonstrating understanding of non-parametric methods.
+
+b. Deep Evaluation: Utilized the Confusion Matrix to break down classification performance (True Positives, False Negatives) and reported on Precision, Recall, and F1-Score, prioritizing metrics based on the business context (e.g., minimizing False Negatives).
+
+c. Performance Visualization: Generated the Receiver Operating Characteristic (ROC) Curve and calculated the Area Under the Curve (AUC) to assess the model's discriminative power across various probability thresholds.
+
+d. Hyperparameter Selection: Optimized the KNN model by selecting the optimal k value using cross-validation.
+
+Technical Stack:
+Category: Tool / Concept
+Libraries: Scikit-learn (LogisticRegression, KNeighborsClassifier)
+Concepts: Binary Classification, Confusion Matrix, Precision/Recall/F1-Score, AUC-ROC, K-Fold Cross-Validation
