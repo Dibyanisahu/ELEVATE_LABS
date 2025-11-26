@@ -1,0 +1,15 @@
+Task 3: Predictive Modeling - Linear Regression (Forecasting) 
+
+Project Goal: 
+To build a robust predictive model using Linear Regression for a continuous target variable (e.g., house price or sales demand), establishing a strong baseline for future regression tasks.
+  
+Key Outcomes & Skills:
+a. Model Training: Developed a Multiple Linear Regression model on the preprocessed training data.
+b. Performance Metrics: Evaluated the model using industry-standard regression metrics, achieving a low Root Mean Squared Error (RMSE) and a high R-squared value, demonstrating strong predictive power.
+c. Assumptions Validation: Performed critical residual analysis to verify that the model adheres to the fundamental assumptions of linearity and homoscedasticity, ensuring model reliability.
+d. Coefficient Interpretation: Interpreted the model's coefficients to understand the relative impact of each independent variable on the predicted outcome, providing business-interpretable results.
+
+Technical Stack
+Category: Tool / Concept
+Libraries: Scikit-learn (LinearRegression), NumPy
+Concepts: Supervised Learning, Multiple Regression, RMSE/R-squared, Residual Plot Analysis, Baseline Model Establishment
