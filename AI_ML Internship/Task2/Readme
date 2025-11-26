@@ -1,0 +1,18 @@
+Task 2: Exploratory Data Analysis (EDA) and Feature Insights 
+
+Project Goal:
+To conduct an in-depth statistical and visual exploration of the cleaned dataset to uncover patterns, validate assumptions, and generate actionable insights that guide the feature engineering and model selection process.
+
+Key Outcomes & Skills:
+a. Insight Generation: Derived statistical summaries and key feature distributions, providing a comprehensive understanding of the data's composition and inherent variability.
+
+b. Relationship Mapping: Utilized correlation heatmaps (Seaborn) to quantify and visualize the relationships between all features, effectively identifying highly correlated features for potential reduction or transformation.
+
+c. Data Storytelling: Created high-impact visualizations (Histograms, Scatter Plots) to showcase feature distributions and their correlation with the target variable, aiding in stakeholder communication.
+
+d. Pre-Modeling Strategy: Based on EDA findings, defined a targeted strategy for feature engineering (e.g., creating interaction terms or polynomial features) to maximize model performance.
+
+Technical Stack:
+a. Category: Tool / Concept
+b. Libraries: Pandas, Matplotlib, Seaborn
+c. Concepts: Summary Statistics, Correlation Analysis, Distribution Visualization, Feature Engineering
