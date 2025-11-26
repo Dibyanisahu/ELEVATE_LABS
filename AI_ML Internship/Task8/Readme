@@ -1,1 +1,18 @@
-This folder contains notebook performing K-Means clustering on the Mall Customer Segmentation Dataset, focusing on customer income and spending score.
+Task 8: Unsupervised Customer Segmentation with K-Means 
+
+Project Goal
+To apply the K-Means clustering algorithm to an unlabeled dataset for unsupervised segmentation, determining the optimal number of clusters and evaluating the quality of the resulting segments.
+
+Key Outcomes & Skills
+a. Optimal K Determination: Employed the Elbow Method (Inertia/WCSS) to programmatically identify the optimal number of clusters (K), justifying the segmentation choice with quantitative analysis.
+b. Cluster Evaluation: Measured the quality of the resulting segments using the Silhouette Score to ensure high compactness (intra-cluster similarity) and good separation (inter-cluster difference).
+c. Unsupervised Implementation: Successfully fitted the K-Means model, demonstrating proficiency in unsupervised learning techniques for pattern discovery.
+d. Data Visualization & Profiling: Visualized the clusters with color-coding in a 2D scatter plot and articulated the distinct characteristics of each resulting segment (e.g., "High Spenders," "Frugal Seniors"), providing actionable business profiles.
+
+Technical Stack
+    | Category                | Technique/Concept                                                                                              | 
+    | :-----------------------| :------------------------------------------------------------------------------------------------------------: | 
+    | Libraries               | Scikit-learn (KMeans), Pandas, Matplotlib.                                                                     |
+    | Concepts                | Unsupervised Learning, K-Means Clustering, Elbow Method, Silhouette Score, Feature Scaling, Data Segmentation. | 
+    | Dataset Used            | Mall Customer Segmentation Dataset.                                                                            | 
+    
