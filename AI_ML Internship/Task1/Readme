@@ -1,0 +1,16 @@
+Task 1: Data Preprocessing and Feature Engineering 
+
+Project Goal:
+To transform a raw, inconsistent dataset (e.g., Titanic/Ames Housing) into a high-quality, modeling-ready format by implementing a robust data cleaning pipeline, ensuring optimal data fidelity for subsequent machine learning models.
+
+Key Outcomes & Skills: 
+a. Data Integrity:Implemented comprehensive strategies (Mean/Median imputation) to handle missing values (NaNs), preserving dataset integrity.
+b. Feature Transformation: Successfully converted nominal and ordinal categorical features into numerical formats using One-Hot Encoding and Label Encoding.
+c. Outlier Management: Employed statistical visualization (Box Plots) to identify and systematically address outliers, enhancing data distribution stability.
+d. Feature Scaling: Applied Standardization (Z-score) to numerical features, ensuring all features contribute equally to the model distance metrics and preventing bias.
+
+Technical Stack:
+a. Category: Tool / Concept
+b. Libraries: Python, Pandas, NumPy, Scikit-learn (StandardScaler)
+c. Concepts: Data Imputation, Feature Encoding, Outlier Detection, Feature Scaling
+
