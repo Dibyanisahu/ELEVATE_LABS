@@ -1,0 +1,18 @@
+Task 6: K-Nearest Neighbors (KNN) Classification 
+
+Project Goal
+To understand and implement K-Nearest Neighbors (KNN), an instance-based, non-parametric model, focusing on the critical role of feature scaling and the selection of the optimal 'K' value.
+
+Key Outcomes & Skills
+a. Non-Parametric Implementation: Successfully implemented the KNeighbors Classifier from Scikit-learn, demonstrating a grasp of how this algorithm classifies data points based on Euclidean distance from its neighbors.
+b. Feature Scaling Requirement: Applied feature normalization/scaling to the dataset, recognizing its essential role in KNN to prevent distance calculations from being dominated by features with larger magnitudes.
+c. Optimal K Selection: Developed a methodical approach to experiment with different values of K, using model performance (accuracy) to determine the optimal number of neighbors for generalization.
+d. Evaluation & Visualization: Evaluated model performance using standard metrics (Accuracy, Confusion Matrix) and visualized the model's decision boundaries to illustrate the classification process.
+
+Tools and Techniques
+    | Category                | Technique/Concept                                                                                           | 
+    | :-----------------------| :---------------------------------------------------------------------------------------------------------: | 
+    | Libraries               | Scikit-learn (KNeighborsClassifier), Pandas, Matplotlib.                                                                     |
+    | Concepts                | Instance-Based Learning, Euclidean Distance, K Selection, Feature Normalization, Decision Boundaries.  | 
+    | Dataset Used            | Iris Dataset.                                                                                      | 
+    
