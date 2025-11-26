@@ -1,18 +1,17 @@
-Task 4: Binary Classification and Model Evaluation 
+Task 4: Classification with Logistic Regression. 
 
 Project Goal:
-To implement and thoroughly evaluate foundational classification models (Logistic Regression and K-Nearest Neighbors) for a binary prediction task (e.g., predicting customer churn or medical diagnosis).
+To implement and thoroughly evaluate foundational classification models (Logistic Regression) for a Breast Cancer Winsconsin Dataset.
 
 Key Outcomes & Skills:
-a. Classification Implementation: Trained a Logistic Regression model, interpreting its probability output for binary outcomes. Also implemented K-Nearest Neighbors (KNN), demonstrating understanding of non-parametric methods.
+a. Classifier Development: Implemented a Logistic Regression model for a binary classification task (e.g., medical diagnosis), demonstrating understanding of how the model transforms linear output into probability via the Sigmoid Function.
+b. Deep Evaluation: Utilized the Confusion Matrix to break down classification results, and critically evaluated the model using Precision, Recall, and F1-Score.
+c. Performance Visualization: Generated the ROC (Receiver Operating Characteristic) Curve and calculated the AUC (Area Under the Curve) score to assess the model's discriminative power across all thresholds.
+d. Threshold Management: Demonstrated the ability to select or tune the classification threshold based on the specific business need (e.g., prioritizing Recall to minimize False Negatives).
 
-b. Deep Evaluation: Utilized the Confusion Matrix to break down classification performance (True Positives, False Negatives) and reported on Precision, Recall, and F1-Score, prioritizing metrics based on the business context (e.g., minimizing False Negatives).
-
-c. Performance Visualization: Generated the Receiver Operating Characteristic (ROC) Curve and calculated the Area Under the Curve (AUC) to assess the model's discriminative power across various probability thresholds.
-
-d. Hyperparameter Selection: Optimized the KNN model by selecting the optimal k value using cross-validation.
 
 Technical Stack:
 Category: Tool / Concept
-Libraries: Scikit-learn (LogisticRegression, KNeighborsClassifier)
-Concepts: Binary Classification, Confusion Matrix, Precision/Recall/F1-Score, AUC-ROC, K-Fold Cross-Validation
+Libraries: Scikit-learn (LogisticRegression)
+Concepts: Binary Classification, Sigmoid Function, Confusion Matrix, Precision/Recall, ROC-AUC, Threshold Tuning
+Dataset Used: Breast Cancer Wisconsin Dataset 
