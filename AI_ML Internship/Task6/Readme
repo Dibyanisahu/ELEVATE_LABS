@@ -12,7 +12,7 @@ d. Evaluation & Visualization: Evaluated model performance using standard metric
 Tools and Techniques
     | Category                | Technique/Concept                                                                                           | 
     | :-----------------------| :---------------------------------------------------------------------------------------------------------: | 
-    | Libraries               | Scikit-learn (KNeighborsClassifier), Pandas, Matplotlib.                                                                     |
-    | Concepts                | Instance-Based Learning, Euclidean Distance, K Selection, Feature Normalization, Decision Boundaries.  | 
-    | Dataset Used            | Iris Dataset.                                                                                      | 
+    | Libraries               | Scikit-learn (KNeighborsClassifier), Pandas, Matplotlib.                                                    |
+    | Concepts                | Instance-Based Learning, Euclidean Distance, K Selection, Feature Normalization, Decision Boundaries.       | 
+    | Dataset Used            | Iris Dataset.                                                                                               | 
     
