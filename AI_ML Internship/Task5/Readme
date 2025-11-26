@@ -1,18 +1,18 @@
-Task 5: Recommendation System Development
+Task 5: Ensemble Learning with Decision Trees and Random Forests
 
 Objective
-To build a functional recommendation system capable of providing personalized suggestions to users, applying advanced machine learning concepts for a real-world application.
+To master tree-based models, implementing a Decision Tree for interpretability and an Ensemble Random Forest for superior predictive accuracy in classification or regression problems.
 
-Dataset
-A standard dataset for recommendations, such as the Heart Disease Dataset.
+Key Outcomes & Skills:
+a. Tree Implementation & Visualization: Trained a Decision Tree Classifier and utilized Graphviz to visualize the decision-making structure, demonstrating an understanding of split points and node purity (Entropy/Information Gain).
+b. Overfitting Control: Analyzed the risk of overfitting inherent in single Decision Trees and successfully implemented regularization techniques like controlling the tree's depth (max_depth).
+c. Ensemble Advantage: Implemented a Random Forest Classifier, showcasing the power of Bagging to reduce variance and significantly improve predictive accuracy over a single Decision Tree.
+d. Feature Interpretability: Extracted and interpreted the model's Feature Importance scores from the Random Forest, identifying the most influential predictors to inform business decisions.
 
 Tools and Techniques
-    | Tool/Library            | Technique/Concept                                                                              | 
-    | :-----------------------| :--------------------------------------------------------------------------------------------: | 
-    | Surprise, Scikit-learn  | Implementing recommendation algorithms.                                                        |
-    | Collaborative Filtering | Utilizing User-based (finding similar users) or Item-based (finding similar items) filtering.  | 
-    | Content-Based Filtering | Recommending items based on their features and the user's past preferences.                    | 
-    | Evaluation Metrics      | Calculating metrics like Precision@K, Recall@K, and Coverage.                                  | 
-    | Cold Start Problem      | Developing strategies to handle new users or new items with no existing data.                  | 
-
-
+    | Category                | Technique/Concept                                                                                           | 
+    | :-----------------------| :---------------------------------------------------------------------------------------------------------: | 
+    | Libraries               | Implementing recommendation algorithms.                                                                     |
+    | Concepts                | Decision Trees, Ensemble Learning (Bagging), Overfitting Mitigation, Feature Importance, Cross-Validation.  | 
+    | Dataset Used            | Heart Disease Dataset.                                                                                      | 
+    
