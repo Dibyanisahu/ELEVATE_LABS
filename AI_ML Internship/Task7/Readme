@@ -1,1 +1,18 @@
-This folder contains Support Vector Machines (SVM) for binary classification on the Breast Cancer dataset
+Task 7: Support Vector Machines (SVM) for Classification 
+
+Project Goal
+To implement and optimize the Support Vector Machine (SVM) algorithm for both linear and non-linear classification tasks, demonstrating mastery of the Kernel Trick and rigorous hyperparameter tuning.
+
+Key Outcomes & Skills
+a. Kernel Implementation: Successfully applied both Linear and Radial Basis Function (RBF) kernels to handle different separability requirements, showcasing an understanding of projecting data into higher dimensions.
+b. Hyperparameter Optimization: Conducted systematic hyperparameter tuning for C (regularization) and gamma (kernel coefficient) to maximize the model's generalization capability using Cross-Validation.
+c. Decision Boundary Visualization: Reduced the feature space (using techniques like PCA or selecting 2 key features) to visualize the decision boundary and the crucial Support Vectors, illustrating the margin maximization principle.
+d. Robust Evaluation: Achieved a high classification score (Accuracy, Precision, Recall) on the critical task, validating the SVM's effectiveness in producing a robust decision boundary.
+
+Technical Stack
+    | Category                | Tool/Concept                                                                                              | 
+    | :-----------------------| :-------------------------------------------------------------------------------------------------------: | 
+    | Libraries               | Scikit-learn (SVC), NumPy, Matplotlib                                                                     |
+    | Concepts                | Margin Maximization, Kernel Trick, Hyperparameter Tuning (C & gamma), Cross-Validation, Support Vectors.  | 
+    | Dataset Used            | Breast Cancer Dataset                                                                                     | 
+    
