@@ -59,7 +59,6 @@ c. Data Visualization: Creating an insightful comparative bar chart with Matplot
 
 
 Repository Structure:
-sales_summary.py: Main Python script.
-sales_data.db: Generated SQLite database file.
+Get_Basic.py: Main Python script.
 README.md: This documentation file.
 sales_chart.png (Optional): Generated visualization.
