@@ -1,1 +1,65 @@
-ooooo
+Task 7: Data Aggregation & Visualization from SQLite
+
+Project Summary:
+This project demonstrates a fundamental data pipeline flow: connecting Python to an SQLite database (sales_data.db), executing an aggregation query, loading results into a Pandas DataFrame, and visualizing the key metrics.
+
+Objective: Calculate and visualize Total Revenue by product.
+
+Technology Stack
+
+Tool      |      Purpose                       |
+
+Python        Execution Environment            
+
+SQLite3       Database Connection & Management 
+
+Pandas        Data Loading & Structuring       
+
+Matplotlib    Data Visualization (Bar Chart)   
+
+Methodology:
+The script performs three steps: database initialization, SQL aggregation, and final reporting.
+
+Core Aggregation Query:
+The analysis summarized sales by grouping and calculating the total quantity and revenue for each product:
+
+SELECT 
+    product, 
+    SUM(quantity) AS total_qty, 
+    SUM(quantity * price) AS revenue 
+FROM 
+    sales 
+GROUP BY 
+    product;
+
+
+Process Flow:
+a. Establish connection and ensure schema integrity (DROP/CREATE TABLE sales).
+b. Execute the aggregation query and load the result into a Pandas DataFrame (pd.read_sql_query).
+c. Generate and display a bar chart comparing product revenues.
+
+Results and Insight:
+
+Aggregated Sales Data
+
+product   |   total_qty   |  revenue
+
+Keyboard        4             150.0
+
+Laptop          3             2450.0
+
+Mouse           15            367.5
+
+Conclusion: The visualization confirms that Laptop generates the highest total revenue, demonstrating its high unit value compared to higher-volume items (Mouse).
+
+Key Skills Demonstrated:
+a. Database Integration: Seamlessly integrating sqlite3 and pandas for data ingestion.
+b. SQL Proficiency: Using SUM() and GROUP BY for effective data summarization.
+c. Data Visualization: Creating an insightful comparative bar chart with Matplotlib.
+
+
+Repository Structure:
+sales_summary.py: Main Python script.
+sales_data.db: Generated SQLite database file.
+README.md: This documentation file.
+sales_chart.png (Optional): Generated visualization.
